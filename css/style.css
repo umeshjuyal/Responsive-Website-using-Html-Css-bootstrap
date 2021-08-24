@@ -1,0 +1,163 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    }
+
+    /*----------------------- Actual CSS start-------------------------------------------------------------- */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),
+    url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
+    position: relative;
+ }
+.header:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    z-index: -5;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+}
+a{text-decoration: none; }
+li{list-style: none;}
+a:hover{text-decoration: none;}
+p{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: purple;
+}
+.extra-div h2,.servicediv h2{
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.3;
+    word-spacing: 4px;
+    margin: 20px 0 15px 0;
+}
+.navbar:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -4;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+    color: black;
+}
+.nav-item a{
+    font-weight: bold;
+    color: #fff !important;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.header-buttons a{
+    border: 1px solid #fff;
+    padding: 12px 35px;
+    line-height: 1.4;
+    margin: 0  5px;
+    border-radius: 100px;
+    outline:none;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.header-buttons a:hover{
+    color: #50d1ce;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(o,0,0,0.3);
+}
+.center-div p{
+    font-size: 1.4rem;
+    padding: 10px 0 20px 0;
+    color: white;
+}
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+    /* transform: translate(-20px); */
+}
+.extra-div{
+    background: #fff;
+    /* border: 2px solid black; */
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px ;
+    transition: 0.3s;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translate(-20px);
+}
+/* --------------------------------------extra header div CSS end--------------------------------------- */
+
+/* --------------------------------------service offers CSS start---------------------------------------- */
+
+.serviceoffers{
+    background: lightgreen;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.service-icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.progress{
+    height: 0.8rem !important;
+    margin-bottom: 25px !important;
+    background: lightslategray;
+}
+
+
+
+
+
+
+
+/* --------------------------------------service offers end---------------------------------------- */
+
+
